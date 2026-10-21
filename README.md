@@ -7,9 +7,9 @@
 3. 预留扩展：账号登录、历史记录、文本高亮标记（加粗/标红/下划线）
 
 ## 技术栈
-前端：Vue3 + Vite
-后端：Node.js + Express
-AI接口：智谱大模型API
+- 前端：Vue3 + Vite
+- 后端：Node.js + Express
+- AI接口：智谱大模型API
 
 ## 项目运行
 ### 1. 后端启动
@@ -18,4 +18,10 @@ cd backend
 npm install
 # 在backend新建.env，填入API_KEY
 node src/server.js
-
+```
+### 2. 前端启动
+```bash
+cd frontend
+npm install
+npm run dev
+```
