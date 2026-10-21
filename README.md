@@ -19,8 +19,3 @@ npm install
 # 在backend新建.env，填入API_KEY
 node src/server.js
 
-### 2. 前端启动
-```bash
-cd frontend
-npm install
-npm run dev
